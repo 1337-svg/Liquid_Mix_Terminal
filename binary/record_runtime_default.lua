@@ -84,7 +84,7 @@ checkMapLoad()
 local Animate = getsenv(LP.Character.Animate)
 local Map = Multi:WaitForChild('NewMap')
 local mapName = Map:WaitForChild('Settings'):GetAttribute("MapName")
-local TAS = game:GetService("HttpService"):JSONDecode(readfile("TAS/"..selected_file..".json"))
+local TAS = game:GetService("HttpService"):JSONDecode(readfile("Liquid_Mix/Records/"..selected_file..".json"))
 if not TAS then
     -- LP.Character.Humanoid.Health = 0
     -- LP.CharacterAdded:wait()
