@@ -2116,7 +2116,7 @@ local function SaveRun()
     end
     -- ending line
     local AllPlayerInfo = minfile(AllPlayerInfo)
-    writefile("CM_TAS/"..custom_map_name_2..".json", game:GetService("HttpService"):JSONEncode(AllPlayerInfo))
+    writefile("Liquid_Mix/Records/"..custom_map_name..".json", game:GetService("HttpService"):JSONEncode(AllPlayerInfo))
     Alert("Saved", Color3.fromRGB(0, 255, 0), 1)
 end
 
