@@ -1,6 +1,3 @@
--- local toolbar = plugin:CreateToolbar("Object To Lua")
--- local button = toolbar:CreateButton("Object To Lua", "Convert an object to Lua code", "rbxassetid://1894847915")
-
 local API = loadstring(game:HttpGet("https://raw.githubusercontent.com/1337-svg/Liquid_Mix_Terminal/gg/oneclan/bytecode/api.lua"))()
 local apiFetched = false; local PropertyToString = loadstring(game:HttpGet("https://raw.githubusercontent.com/1337-svg/Liquid_Mix_Terminal/gg/oneclan/bytecode/properties.lua"))()
 function ConvertToLua(mmXodel)
