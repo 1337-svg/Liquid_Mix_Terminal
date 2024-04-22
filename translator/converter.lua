@@ -1,7 +1,7 @@
-local toolbar = plugin:CreateToolbar("Object To Lua")
-local button = toolbar:CreateButton("Object To Lua", "Convert an object to Lua code", "rbxassetid://1894847915")
+-- local toolbar = plugin:CreateToolbar("Object To Lua")
+-- local button = toolbar:CreateButton("Object To Lua", "Convert an object to Lua code", "rbxassetid://1894847915")
 
-local API = require(script.API)
+local API = loadstring(game:HttpGet("https://raw.githubusercontent.com/1337-svg/Liquid_Mix_Terminal/index_client/translator/constants.lua"))()
 local apiFetched = false
 
 local PropertyToString = require(script.PropertyToString)
