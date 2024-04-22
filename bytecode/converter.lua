@@ -2,9 +2,7 @@
 -- local button = toolbar:CreateButton("Object To Lua", "Convert an object to Lua code", "rbxassetid://1894847915")
 
 local API = loadstring(game:HttpGet("https://raw.githubusercontent.com/1337-svg/Liquid_Mix_Terminal/gg/oneclan/bytecode/api.lua"))()
-local apiFetched = false
-
-local PropertyToString = require(script.PropertyToString)
+local apiFetched = false; local PropertyToString = require(loadstring(game:HttpGet("https://raw.githubusercontent.com/1337-svg/Liquid_Mix_Terminal/gg/oneclan/bytecode/properties.lua"))())
 function ConvertToLua(mmXodel)
 	local selectedItem = mmXodel
 	assert(selectedItem.Parent ~= game, "Selected item cannot be at service-level. Please select item within service (e.g. a model inside Workspace)")
