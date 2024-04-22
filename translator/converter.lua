@@ -5,8 +5,8 @@ local API = loadstring(game:HttpGet("https://raw.githubusercontent.com/1337-svg/
 local apiFetched = false
 
 local PropertyToString = require(script.PropertyToString)
-function ConvertToLua(mmodel)
-	local selectedItem = mmodel
+function ConvertToLua(mmXodel)
+	local selectedItem = mmXodel
 	assert(selectedItem.Parent ~= game, "Selected item cannot be at service-level. Please select item within service (e.g. a model inside Workspace)")
 	
 	local awaitReference = {}
