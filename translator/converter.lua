@@ -5,14 +5,8 @@ local API = loadstring(game:HttpGet("https://raw.githubusercontent.com/1337-svg/
 local apiFetched = false
 
 local PropertyToString = require(script.PropertyToString)
-
-
-function ButtonClicked()
-	
-	local selection = game.Selection:Get()
-	assert(#selection == 1, "Please make sure 1 item is selected")
-	
-	local selectedItem = selection[1]
+function ConvertToLua(mmodel)
+	local selectedItem = mmodel
 	assert(selectedItem.Parent ~= game, "Selected item cannot be at service-level. Please select item within service (e.g. a model inside Workspace)")
 	
 	local awaitReference = {}
@@ -147,6 +141,3 @@ return function() return Scan(root, nil) end"
 	game.Selection:Set{ms}
 	
 end
-
-
-button.Click:Connect(ButtonClicked)
