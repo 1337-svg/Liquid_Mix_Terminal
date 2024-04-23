@@ -1,15 +1,10 @@
 getgenv().AllProperties = {
-	Accessory = {
 		"AccessoryType"
-	},
-	Accoutrement = {
 		"AttachmentForward",
 		"AttachmentPoint",
 		"AttachmentPos",
 		"AttachmentRight",
 		"AttachmentUp"
-	},
-	AlignOrientation = {
 		"AlignType",
 		"CFrame",
 		"MaxAngularVelocity",
@@ -21,8 +16,6 @@ getgenv().AllProperties = {
 		"Responsiveness",
 		"RigidityEnabled",
 		"SecondaryAxis"
-	},
-	AlignPosition = {
 		"ApplyAtCenterOfMass",
 		"MaxForce",
 		"MaxVelocity",
@@ -31,21 +24,13 @@ getgenv().AllProperties = {
 		"ReactionForceEnabled",
 		"Responsiveness",
 		"RigidityEnabled"
-	},
-	AngularVelocity = {
 		"AngularVelocity",
 		"MaxTorque",
 		"ReactionTorqueEnabled",
 		"RelativeTo"
-	},
-	Animation = {
 		"AnimationId"
-	},
-	AnimationClip = {
 		"Loop",
 		"Priority"
-	},
-	AnimationTrack = {
 		"Animation",
 		"IsPlaying",
 		"Length",
@@ -55,19 +40,13 @@ getgenv().AllProperties = {
 		"TimePosition",
 		"WeightCurrent",
 		"WeightTarget"
-	},
-	ArcHandles = {
 		"Axes"
-	},
-	Atmosphere = {
 		"Color",
 		"Decay",
 		"Density",
 		"Glare",
 		"Haze",
 		"Offset"
-	},
-	Attachment = {
 		"Axis",
 		"CFrame",
 		"Orientation",
@@ -79,11 +58,7 @@ getgenv().AllProperties = {
 		"WorldOrientation",
 		"WorldPosition",
 		"WorldSecondaryAxis"
-	},
-	BackpackItem = {
 		"TextureId"
-	},
-	BallSocketConstraint = {
 		"LimitsEnabled",
 		"MaxFrictionTorque",
 		"Radius",
@@ -92,8 +67,6 @@ getgenv().AllProperties = {
 		"TwistLowerAngle",
 		"TwistUpperAngle",
 		"UpperAngle"
-	},
-	BasePart = {
 		"Anchored",
 		"AssemblyAngularVelocity",
 		"AssemblyCenterOfMass",
@@ -131,20 +104,14 @@ getgenv().AllProperties = {
 		"Size",
 		"TopSurface",
 		"Transparency"
-	},
-	BaseScript = {
 		"Disabled",
 		"LinkedSource"
-	},
-	BaseWrap = {
 		"CageMeshId",
 		"CageOrigin",
 		"CageOriginWorld",
 		"HSRAssetId",
 		"ImportOrigin",
 		"ImportOriginWorld"
-	},
-	Beam = {
 		"Attachment0",
 		"Attachment1",
 		"Brightness",
@@ -164,8 +131,6 @@ getgenv().AllProperties = {
 		"Width0",
 		"Width1",
 		"ZOffset"
-	},
-	BillboardGui = {
 		"Active",
 		"Adornee",
 		"AlwaysOnTop",
@@ -184,21 +149,13 @@ getgenv().AllProperties = {
 		"SizeOffset",
 		"StudsOffset",
 		"StudsOffsetWorldSpace"
-	},
-	BloomEffect = {
 		"Intensity",
 		"Size",
 		"Threshold"
-	},
-	BlurEffect = {
 		"Size"
-	},
-	BodyAngularVelocity = {
 		"AngularVelocity",
 		"MaxTorque",
 		"P"
-	},
-	BodyColors = {
 		"HeadColor",
 		"HeadColor3",
 		"LeftArmColor",
@@ -211,49 +168,27 @@ getgenv().AllProperties = {
 		"RightLegColor3",
 		"TorsoColor",
 		"TorsoColor3"
-	},
-	BodyForce = {
 		"Force"
-	},
-	BodyGyro = {
 		"CFrame",
 		"D",
 		"MaxTorque",
 		"P"
-	},
-	BodyPosition = {
 		"D",
 		"MaxForce",
 		"P",
 		"Position"
-	},
-	BodyThrust = {
 		"Force",
 		"Location"
-	},
-	BodyVelocity = {
 		"MaxForce",
 		"P",
 		"Velocity"
-	},
-	Bone = {
 		"Transform",
 		"TransformedCFrame",
 		"TransformedWorldCFrame"
-	},
-	BoolValue = {
 		"Value"
-	},
-	BoxHandleAdornment = {
 		"Size"
-	},
-	BrickColorValue = {
 		"Value"
-	},
-	CFrameValue = {
 		"Value"
-	},
-	Camera = {
 		"CFrame",
 		"CameraSubject",
 		"CameraType",
@@ -266,59 +201,33 @@ getgenv().AllProperties = {
 		"MaxAxisFieldOfView",
 		"NearPlaneZ",
 		"ViewportSize"
-	},
-	CanvasGroup = {
 		"GroupColor",
 		"GroupTransparency"
-	},
-	ChannelSelectorSoundEffect = {
 		"Channel"
-	},
-	CharacterMesh = {
 		"BaseTextureId",
 		"BodyPart",
 		"MeshId",
 		"OverlayTextureId"
-	},
-	Chat = {
 		"BubbleChatEnabled",
 		"LoadDefaultChat"
-	},
-	ChatInputBarConfiguration = {
 		"Enabled",
 		"TargetTextChannel"
-	},
-	ChatWindowConfiguration = {
 		"Enabled"
-	},
-	ChorusSoundEffect = {
 		"Depth",
 		"Mix",
 		"Rate"
-	},
-	ClickDetector = {
 		"CursorIcon",
 		"MaxActivationDistance"
-	},
-	Clothing = {
 		"Color3"
-	},
-	Clouds = {
 		"Color",
 		"Cover",
 		"Density",
 		"Enabled"
-	},
-	Color3Value = {
 		"Value"
-	},
-	ColorCorrectionEffect = {
 		"Brightness",
 		"Contrast",
 		"Saturation",
 		"TintColor"
-	},
-	CommandInstance = {
 		"AllowGUIAccessPoints",
 		"Checked",
 		"DefaultShortcut",
@@ -328,45 +237,29 @@ getgenv().AllProperties = {
 		"Name",
 		"Permission",
 		"StatusTip"
-	},
-	CompressorSoundEffect = {
 		"Attack",
 		"GainMakeup",
 		"Ratio",
 		"Release",
 		"SideChain",
 		"Threshold"
-	},
-	ConeHandleAdornment = {
 		"Height",
 		"Radius"
-	},
-	Constraint = {
 		"Active",
 		"Attachment0",
 		"Attachment1",
 		"Color",
 		"Enabled",
 		"Visible"
-	},
-	ContentProvider = {
 		"BaseUrl",
 		"RequestQueueSize"
-	},
-	CoreGui = {
 		"SelectionImageObject",
 		"Version"
-	},
-	CustomEventReceiver = {
 		"Source"
-	},
-	CylinderHandleAdornment = {
 		"Angle",
 		"Height",
 		"InnerRadius",
 		"Radius"
-	},
-	CylindricalConstraint = {
 		"AngularActuatorType",
 		"AngularLimitsEnabled",
 		"AngularResponsiveness",
@@ -383,8 +276,6 @@ getgenv().AllProperties = {
 		"TargetAngle",
 		"UpperAngle",
 		"WorldRotationAxis"
-	},
-	DataModel = {
 		"CreatorId",
 		"CreatorType",
 		"GameId",
@@ -395,37 +286,21 @@ getgenv().AllProperties = {
 		"PrivateServerId",
 		"PrivateServerOwnerId",
 		"Workspace"
-	},
-	DataModelMesh = {
 		"Offset",
 		"Scale",
 		"VertexColor"
-	},
-	DataStoreInfo = {
 		"CreatedTime",
 		"DataStoreName",
 		"UpdatedTime"
-	},
-	DataStoreKey = {
 		"KeyName"
-	},
-	DataStoreKeyInfo = {
 		"CreatedTime",
 		"UpdatedTime",
 		"Version"
-	},
-	DataStoreObjectVersionInfo = {
 		"CreatedTime",
 		"IsDeleted",
 		"Version"
-	},
-	DataStoreOptions = {
 		"AllScopes"
-	},
-	DataStoreService = {
 		"AutomaticRetry"
-	},
-	DebugSettings = {
 		"DataModel",
 		"InstanceCount",
 		"IsScriptStackTracingEnabled",
@@ -434,34 +309,22 @@ getgenv().AllProperties = {
 		"ReportSoundWarnings",
 		"RobloxVersion",
 		"TickCountPreciseOverride"
-	},
-	DebuggerBreakpoint = {
 		"Condition",
 		"ContinueExecution",
 		"IsEnabled",
 		"Line",
 		"LogExpression",
 		"isContextDependentBreakpoint"
-	},
-	DebuggerManager = {
 		"DebuggingEnabled"
-	},
-	DebuggerWatch = {
 		"Expression"
-	},
-	Decal = {
 		"Color3",
 		"Texture",
 		"Transparency",
 		"ZIndex"
-	},
-	DepthOfFieldEffect = {
 		"FarIntensity",
 		"FocusDistance",
 		"InFocusRadius",
 		"NearIntensity"
-	},
-	Dialog = {
 		"BehaviorType",
 		"ConversationDistance",
 		"GoodbyeChoiceActive",
@@ -472,25 +335,15 @@ getgenv().AllProperties = {
 		"Tone",
 		"TriggerDistance",
 		"TriggerOffset"
-	},
-	DialogChoice = {
 		"GoodbyeChoiceActive",
 		"GoodbyeDialog",
 		"ResponseDialog",
 		"UserDialog"
-	},
-	DistortionSoundEffect = {
 		"Level"
-	},
-	DockWidgetPluginGui = {
 		"HostWidgetWasRestored"
-	},
-	DoubleConstrainedValue = {
 		"MaxValue",
 		"MinValue",
 		"Value"
-	},
-	DraggerService = {
 		"AlignDraggedObjects",
 		"AngleSnapEnabled",
 		"AngleSnapIncrement",
@@ -507,25 +360,15 @@ getgenv().AllProperties = {
 		"PivotSnapToGeometry",
 		"ShowHover",
 		"ShowPivotIndicator"
-	},
-	DynamicRotate = {
 		"BaseAngle"
-	},
-	EchoSoundEffect = {
 		"Delay",
 		"DryLevel",
 		"Feedback",
 		"WetLevel"
-	},
-	EqualizerSoundEffect = {
 		"HighGain",
 		"LowGain",
 		"MidGain"
-	},
-	EulerRotationCurve = {
 		"RotationOrder"
-	},
-	Explosion = {
 		"BlastPressure",
 		"BlastRadius",
 		"DestroyJointRadiusPercent",
@@ -533,8 +376,6 @@ getgenv().AllProperties = {
 		"Position",
 		"TimeScale",
 		"Visible"
-	},
-	FaceControls = {
 		"ChinRaiser",
 		"ChinRaiserUpperLip",
 		"Corrugator",
@@ -585,43 +426,25 @@ getgenv().AllProperties = {
 		"TongueOut",
 		"TongueUp",
 		"UpperLipSuck"
-	},
-	FaceInstance = {
 		"Face"
-	},
-	Feature = {
 		"FaceId",
 		"InOut",
 		"LeftRight",
 		"TopBottom"
-	},
-	FileMesh = {
 		"MeshId",
 		"TextureId"
-	},
-	Fire = {
 		"Color",
 		"Enabled",
 		"Heat",
 		"SecondaryColor",
 		"Size",
 		"TimeScale"
-	},
-	Flag = {
 		"TeamColor"
-	},
-	FlagStand = {
 		"TeamColor"
-	},
-	FlangeSoundEffect = {
 		"Depth",
 		"Mix",
 		"Rate"
-	},
-	FloatCurve = {
 		"Length"
-	},
-	FloorWire = {
 		"CycleOffset",
 		"From",
 		"StudsBetweenTextures",
@@ -630,50 +453,30 @@ getgenv().AllProperties = {
 		"To",
 		"Velocity",
 		"WireRadius"
-	},
-	ForceField = {
 		"Visible"
-	},
-	Frame = {
 		"Style"
-	},
-	FunctionalTest = {
 		"Description"
-	},
-	GameSettings = {
 		"AdditionalCoreIncludeDirs",
 		"OverrideStarterScript",
 		"VideoCaptureEnabled",
 		"VideoRecording"
-	},
-	GamepadService = {
 		"GamepadCursorEnabled"
-	},
-	Glue = {
 		"F0",
 		"F1",
 		"F2",
 		"F3"
-	},
-	GuiBase2d = {
 		"AbsolutePosition",
 		"AbsoluteRotation",
 		"AbsoluteSize",
 		"AutoLocalize",
 		"RootLocalizationTable"
-	},
-	GuiBase3d = {
 		"Color3",
 		"Transparency",
 		"Visible"
-	},
-	GuiButton = {
 		"AutoButtonColor",
 		"Modal",
 		"Selected",
 		"Style"
-	},
-	GuiObject = {
 		"Active",
 		"AnchorPoint",
 		"AutomaticSize",
@@ -696,27 +499,19 @@ getgenv().AllProperties = {
 		"SizeConstraint",
 		"Visible",
 		"ZIndex"
-	},
-	GuiService = {
 		"AutoSelectGuiEnabled",
 		"CoreGuiNavigationEnabled",
 		"GuiNavigationEnabled",
 		"MenuIsOpen",
 		"SelectedObject",
 		"TouchControlsEnabled"
-	},
-	HandleAdornment = {
 		"AdornCullingMode",
 		"AlwaysOnTop",
 		"CFrame",
 		"SizeRelativeOffset",
 		"ZIndex"
-	},
-	Handles = {
 		"Faces",
 		"Style"
-	},
-	Highlight = {
 		"Adornee",
 		"DepthMode",
 		"Enabled",
@@ -724,8 +519,6 @@ getgenv().AllProperties = {
 		"FillTransparency",
 		"OutlineColor",
 		"OutlineTransparency"
-	},
-	HingeConstraint = {
 		"ActuatorType",
 		"AngularResponsiveness",
 		"AngularSpeed",
@@ -740,15 +533,9 @@ getgenv().AllProperties = {
 		"ServoMaxTorque",
 		"TargetAngle",
 		"UpperAngle"
-	},
-	HopperBin = {
 		"Active",
 		"BinType"
-	},
-	HttpService = {
 		"HttpEnabled"
-	},
-	Humanoid = {
 		"AutoJumpEnabled",
 		"AutoRotate",
 		"AutomaticScalingEnabled",
@@ -780,8 +567,6 @@ getgenv().AllProperties = {
 		"WalkSpeed",
 		"WalkToPart",
 		"WalkToPoint"
-	},
-	HumanoidDescription = {
 		"AccessoryBlob",
 		"BackAccessory",
 		"BodyTypeScale",
@@ -820,8 +605,6 @@ getgenv().AllProperties = {
 		"WaistAccessory",
 		"WalkAnimation",
 		"WidthScale"
-	},
-	ImageButton = {
 		"HoverImage",
 		"Image",
 		"ImageColor3",
@@ -835,12 +618,8 @@ getgenv().AllProperties = {
 		"SliceCenter",
 		"SliceScale",
 		"TileSize"
-	},
-	ImageHandleAdornment = {
 		"Image",
 		"Size"
-	},
-	ImageLabel = {
 		"Image",
 		"ImageColor3",
 		"ImageRectOffset",
@@ -852,32 +631,22 @@ getgenv().AllProperties = {
 		"SliceCenter",
 		"SliceScale",
 		"TileSize"
-	},
-	ImporterBaseSettings = {
 		"Id",
 		"ImportName",
 		"ShouldImport"
-	},
-	ImporterGroupSettings = {
 		"Anchored",
 		"ImportAsModelAsset",
 		"InsertInWorkspace"
-	},
-	ImporterMaterialSettings = {
 		"DiffuseFilePath",
 		"IsPbr",
 		"MetalnessFilePath",
 		"NormalFilePath",
 		"RoughnessFilePath"
-	},
-	ImporterMeshSettings = {
 		"Anchored",
 		"Dimensions",
 		"DoubleSided",
 		"IgnoreVertexColors",
 		"PolygonCount"
-	},
-	ImporterRootSettings = {
 		"Anchored",
 		"FileDimensions",
 		"ImportAsModelAsset",
@@ -889,64 +658,38 @@ getgenv().AllProperties = {
 		"ScaleUnit",
 		"WorldForward",
 		"WorldUp"
-	},
-	ImporterTextureSettings = {
 		"FilePath"
-	},
-	InputObject = {
 		"Delta",
 		"KeyCode",
 		"Position",
 		"UserInputState",
 		"UserInputType"
-	},
-	InsertService = {
 		"AllowClientInsertModels"
-	},
-	Instance = {
 		"Archivable",
 		"ClassName",
 		"Name",
 		"Parent",
 		"PropertyStatusStudio"
-	},
-	InstanceAdornment = {
 		"Adornee"
-	},
-	IntConstrainedValue = {
 		"MaxValue",
 		"MinValue",
 		"Value"
-	},
-	IntValue = {
 		"Value"
-	},
-	JointInstance = {
 		"Active",
 		"C0",
 		"C1",
 		"Enabled",
 		"Part0",
 		"Part1"
-	},
-	Keyframe = {
 		"Time"
-	},
-	KeyframeMarker = {
 		"Value"
-	},
-	LayerCollector = {
 		"Enabled",
 		"ResetOnSpawn",
 		"ZIndexBehavior"
-	},
-	Light = {
 		"Brightness",
 		"Color",
 		"Enabled",
 		"Shadows"
-	},
-	Lighting = {
 		"Ambient",
 		"Brightness",
 		"ClockTime",
@@ -964,19 +707,13 @@ getgenv().AllProperties = {
 		"ShadowSoftness",
 		"Technology",
 		"TimeOfDay"
-	},
-	LineForce = {
 		"ApplyAtCenterOfMass",
 		"InverseSquareLaw",
 		"Magnitude",
 		"MaxForce",
 		"ReactionForceEnabled"
-	},
-	LineHandleAdornment = {
 		"Length",
 		"Thickness"
-	},
-	LinearVelocity = {
 		"LineDirection",
 		"LineVelocity",
 		"MaxForce",
@@ -986,21 +723,11 @@ getgenv().AllProperties = {
 		"SecondaryTangentAxis",
 		"VectorVelocity",
 		"VelocityConstraintMode"
-	},
-	LocalizationService = {
 		"RobloxLocaleId",
 		"SystemLocaleId"
-	},
-	LocalizationTable = {
 		"SourceLocaleId"
-	},
-	LuaSourceContainer = {
 		"CurrentEditor"
-	},
-	MarkerCurve = {
 		"Length"
-	},
-	MaterialService = {
 		"AsphaltName",
 		"BasaltName",
 		"Brick",
@@ -1074,8 +801,6 @@ getgenv().AllProperties = {
 		"WoodName",
 		"WoodPlanks",
 		"WoodPlanksName"
-	},
-	MaterialVariant = {
 		"BaseMaterial",
 		"ColorMap",
 		"MaterialPattern",
@@ -1083,36 +808,22 @@ getgenv().AllProperties = {
 		"NormalMap",
 		"RoughnessMap",
 		"StudsPerTile"
-	},
-	MeshPart = {
 		"DoubleSided",
 		"MeshId",
 		"MeshSize",
 		"RenderFidelity",
 		"TextureID"
-	},
-	Message = {
 		"Text"
-	},
-	Model = {
 		"LevelOfDetail",
 		"PrimaryPart",
 		"WorldPivot"
-	},
-	ModuleScript = {
 		"LinkedSource",
 		"Source"
-	},
-	Motor = {
 		"CurrentAngle",
 		"DesiredAngle",
 		"MaxVelocity"
-	},
-	Motor6D = {
 		"ChildName",
 		"ParentName"
-	},
-	Mouse = {
 		"Hit",
 		"Icon",
 		"Origin",
@@ -1124,8 +835,6 @@ getgenv().AllProperties = {
 		"ViewSizeY",
 		"X",
 		"Y"
-	},
-	NetworkSettings = {
 		"HttpProxyEnabled",
 		"HttpProxyURL",
 		"IncomingReplicationLag",
@@ -1135,29 +844,15 @@ getgenv().AllProperties = {
 		"RandomizeJoinInstanceOrder",
 		"RenderStreamedRegions",
 		"ShowActiveAnimationAsset"
-	},
-	NoCollisionConstraint = {
 		"Enabled",
 		"Part0",
 		"Part1"
-	},
-	NotificationService = {
 		"IsLuaGameDetailsEnabled",
 		"SelectedTheme"
-	},
-	NumberPose = {
 		"Value"
-	},
-	NumberValue = {
 		"Value"
-	},
-	ObjectValue = {
 		"Value"
-	},
-	PVAdornment = {
 		"Adornee"
-	},
-	PackageLink = {
 		"AutoUpdate",
 		"Creator",
 		"PackageAssetName",
@@ -1165,26 +860,14 @@ getgenv().AllProperties = {
 		"PermissionLevel",
 		"Status",
 		"VersionNumber"
-	},
-	Pages = {
 		"IsFinished"
-	},
-	Pants = {
 		"PantsTemplate"
-	},
-	Part = {
 		"Shape"
-	},
-	PartAdornment = {
 		"Adornee"
-	},
-	PartOperation = {
 		"RenderFidelity",
 		"SmoothingAngle",
 		"TriangleCount",
 		"UsePartColor"
-	},
-	ParticleEmitter = {
 		"Acceleration",
 		"Brightness",
 		"Color",
@@ -1217,21 +900,13 @@ getgenv().AllProperties = {
 		"Transparency",
 		"VelocityInheritance",
 		"ZOffset"
-	},
-	Path = {
 		"Status"
-	},
-	PathfindingLink = {
 		"Attachment0",
 		"Attachment1",
 		"IsBidirectional",
 		"Label"
-	},
-	PathfindingModifier = {
 		"Label",
 		"PassThrough"
-	},
-	PhysicsSettings = {
 		"AllowSleep",
 		"AreAnchorsShown",
 		"AreAssembliesShown",
@@ -1257,11 +932,7 @@ getgenv().AllProperties = {
 		"ShowDecompositionGeometry",
 		"ThrottleAdjustTime",
 		"UseCSGv2"
-	},
-	PitchShiftSoundEffect = {
 		"Octave"
-	},
-	Player = {
 		"AccountAge",
 		"AutoJumpEnabled",
 		"CameraMaxZoomDistance",
@@ -1288,13 +959,9 @@ getgenv().AllProperties = {
 		"Team",
 		"TeamColor",
 		"UserId"
-	},
-	PlayerGui = {
 		"CurrentScreenOrientation",
 		"ScreenOrientation",
 		"SelectionImageObject"
-	},
-	Players = {
 		"BubbleChat",
 		"CharacterAutoLoads",
 		"ClassicChat",
@@ -1302,50 +969,28 @@ getgenv().AllProperties = {
 		"MaxPlayers",
 		"PreferredPlayers",
 		"RespawnTime"
-	},
-	Plugin = {
 		"CollisionEnabled",
 		"GridSize"
-	},
-	PluginAction = {
 		"ActionId",
 		"AllowBinding",
 		"StatusTip",
 		"Text"
-	},
-	PluginDragEvent = {
 		"Data",
 		"MimeType",
 		"Position",
 		"Sender"
-	},
-	PluginGui = {
 		"Title"
-	},
-	PluginMenu = {
 		"Icon",
 		"Title"
-	},
-	PluginToolbarButton = {
 		"ClickableWhenViewportHidden",
 		"Enabled",
 		"Icon"
-	},
-	PointLight = {
 		"Range"
-	},
-	Pose = {
 		"CFrame"
-	},
-	PoseBase = {
 		"EasingDirection",
 		"EasingStyle",
 		"Weight"
-	},
-	PostEffect = {
 		"Enabled"
-	},
-	ProximityPrompt = {
 		"ActionText",
 		"AutoLocalize",
 		"ClickablePrompt",
@@ -1360,21 +1005,13 @@ getgenv().AllProperties = {
 		"RootLocalizationTable",
 		"Style",
 		"UIOffset"
-	},
-	ProximityPromptService = {
 		"Enabled",
 		"MaxPromptsVisible"
-	},
-	RayValue = {
 		"Value"
-	},
-	ReflectionMetadataClass = {
 		"ExplorerImageIndex",
 		"ExplorerOrder",
 		"Insertable",
 		"PreferredParent"
-	},
-	ReflectionMetadataItem = {
 		"Browsable",
 		"ClassCategory",
 		"ClientOnly",
@@ -1390,8 +1027,6 @@ getgenv().AllProperties = {
 		"UIMaximum",
 		"UIMinimum",
 		"UINumTicks"
-	},
-	RenderSettings = {
 		"AutoFRMLevel",
 		"EagerBulkExecution",
 		"EditQualityLevel",
@@ -1404,8 +1039,6 @@ getgenv().AllProperties = {
 		"ReloadAssets",
 		"RenderCSGTrianglesDebug",
 		"ShowBoundingBoxes"
-	},
-	RenderingTest = {
 		"CFrame",
 		"ComparisonDiffThreshold",
 		"ComparisonMethod",
@@ -1417,21 +1050,14 @@ getgenv().AllProperties = {
 		"QualityLevel",
 		"ShouldSkip",
 		"Ticket"
-	},
-	ReverbSoundEffect = {
 		"DecayTime",
 		"Density",
 		"Diffusion",
 		"DryLevel",
 		"WetLevel"
-	},
-	RigidConstraint = {
 		"Broken",
 		"DestructionEnabled",
 		"DestructionForce",
-		"DestructionTorque"
-	},
-	RocketPropulsion = {
 		"CartoonFactor",
 		"MaxSpeed",
 		"MaxThrust",
@@ -1443,16 +1069,12 @@ getgenv().AllProperties = {
 		"ThrustP",
 		"TurnD",
 		"TurnP"
-	},
-	RodConstraint = {
 		"CurrentDistance",
 		"Length",
 		"LimitAngle0",
 		"LimitAngle1",
 		"LimitsEnabled",
 		"Thickness"
-	},
-	RopeConstraint = {
 		"CurrentDistance",
 		"Length",
 		"Restitution",
@@ -1462,27 +1084,14 @@ getgenv().AllProperties = {
 		"WinchResponsiveness",
 		"WinchSpeed",
 		"WinchTarget"
-	},
-	RotationCurve = {
 		"Length"
-	},
-	RunService = {
 		"ClientGitHash"
-	},
-	ScreenGui = {
 		"DisplayOrder",
 		"IgnoreGuiInset"
-	},
-	Script = {
 		"Source"
-	},
-	ScriptDebugger = {
 		"CurrentLine",
 		"IsDebugging",
 		"IsPaused",
-		"Script"
-	},
-	ScrollingFrame = {
 		"AbsoluteCanvasSize",
 		"AbsoluteWindowSize",
 		"AutomaticCanvasSize",
@@ -1500,57 +1109,29 @@ getgenv().AllProperties = {
 		"TopImage",
 		"VerticalScrollBarInset",
 		"VerticalScrollBarPosition"
-	},
-	Seat = {
 		"Disabled",
 		"Occupant"
-	},
-	Selection = {
 		"SelectionThickness"
-	},
-	SelectionBox = {
 		"LineThickness",
 		"SurfaceColor3",
 		"SurfaceTransparency"
-	},
-	SelectionLasso = {
 		"Humanoid"
-	},
-	SelectionPartLasso = {
 		"Part"
-	},
-	SelectionPointLasso = {
 		"Point"
-	},
-	SelectionSphere = {
 		"SurfaceColor3",
 		"SurfaceTransparency"
-	},
-	ServerScriptService = {
 		"LoadStringEnabled"
-	},
-	Shirt = {
 		"ShirtTemplate"
-	},
-	ShirtGraphic = {
 		"Color3",
 		"Graphic"
-	},
-	SkateboardController = {
 		"Steer",
 		"Throttle"
-	},
-	SkateboardPlatform = {
 		"Controller",
 		"ControllingHumanoid",
 		"Steer",
 		"StickyWheels",
 		"Throttle"
-	},
-	Skin = {
 		"SkinColor"
-	},
-	Sky = {
 		"CelestialBodiesShown",
 		"MoonAngularSize",
 		"MoonTextureId",
@@ -1563,8 +1144,6 @@ getgenv().AllProperties = {
 		"StarCount",
 		"SunAngularSize",
 		"SunTextureId"
-	},
-	SlidingBallConstraint = {
 		"ActuatorType",
 		"CurrentPosition",
 		"LimitsEnabled",
@@ -1579,16 +1158,12 @@ getgenv().AllProperties = {
 		"TargetPosition",
 		"UpperLimit",
 		"Velocity"
-	},
-	Smoke = {
 		"Color",
 		"Enabled",
 		"Opacity",
 		"RiseVelocity",
 		"Size",
 		"TimeScale"
-	},
-	Sound = {
 		"ChannelCount",
 		"IsLoaded",
 		"IsPaused",
@@ -1606,34 +1181,22 @@ getgenv().AllProperties = {
 		"TimeLength",
 		"TimePosition",
 		"Volume"
-	},
-	SoundEffect = {
 		"Enabled",
 		"Priority"
-	},
-	SoundGroup = {
 		"Volume"
-	},
-	SoundService = {
 		"AmbientReverb",
 		"DistanceFactor",
 		"DopplerScale",
 		"RespectFilteringEnabled",
 		"RolloffScale"
-	},
-	Sparkles = {
 		"Enabled",
 		"SparkleColor",
 		"TimeScale"
-	},
-	SpawnLocation = {
 		"AllowTeamChangeOnTouch",
 		"Duration",
 		"Enabled",
 		"Neutral",
 		"TeamColor"
-	},
-	Speaker = {
 		"ChannelCount",
 		"PlaybackLoudness",
 		"RollOffMaxDistance",
@@ -1642,19 +1205,11 @@ getgenv().AllProperties = {
 		"SoundGroup",
 		"Source",
 		"Volume"
-	},
-	SpecialMesh = {
 		"MeshType"
-	},
-	SphereHandleAdornment = {
 		"Radius"
-	},
-	SpotLight = {
 		"Angle",
 		"Face",
 		"Range"
-	},
-	SpringConstraint = {
 		"Coils",
 		"CurrentLength",
 		"Damping",
@@ -1666,13 +1221,9 @@ getgenv().AllProperties = {
 		"Radius",
 		"Stiffness",
 		"Thickness"
-	},
-	StarterGui = {
 		"ScreenOrientation",
 		"ShowDevelopmentGui",
 		"VirtualCursorMode"
-	},
-	StarterPlayer = {
 		"AutoJumpEnabled",
 		"CameraMaxZoomDistance",
 		"CameraMinZoomDistance",
@@ -1692,8 +1243,6 @@ getgenv().AllProperties = {
 		"LoadCharacterAppearance",
 		"NameDisplayDistance",
 		"UserEmotesEnabled"
-	},
-	Stats = {
 		"ContactsCount",
 		"DataReceiveKbps",
 		"DataSendKbps",
@@ -1704,11 +1253,7 @@ getgenv().AllProperties = {
 		"PhysicsSendKbps",
 		"PhysicsStepTimeMs",
 		"PrimitivesCount"
-	},
-	StringValue = {
 		"Value"
-	},
-	Studio = {
 		"CommandBarLocalState",
 		"DefaultScriptFileDir",
 		"DeprecatedObjectsShown",
@@ -1726,8 +1271,6 @@ getgenv().AllProperties = {
 		"ScriptTimeoutLength",
 		"ShowCorePackagesInExplorer",
 		"Theme"
-	},
-	StudioService = {
 		"ActiveScript",
 		"DraggerSolveConstraints",
 		"DrawConstraintsOnTop",
@@ -1736,19 +1279,13 @@ getgenv().AllProperties = {
 		"ShowConstraintDetails",
 		"StudioLocaleId",
 		"UseLocalSpace"
-	},
-	SunRaysEffect = {
 		"Intensity",
 		"Spread"
-	},
-	SurfaceAppearance = {
 		"AlphaMode",
 		"ColorMap",
 		"MetalnessMap",
 		"NormalMap",
 		"RoughnessMap"
-	},
-	SurfaceGui = {
 		"Active",
 		"Adornee",
 		"AlwaysOnTop",
@@ -1761,35 +1298,21 @@ getgenv().AllProperties = {
 		"SizingMode",
 		"ToolPunchThroughDistance",
 		"ZOffset"
-	},
-	SurfaceLight = {
 		"Angle",
 		"Face",
 		"Range"
-	},
-	SurfaceSelection = {
 		"TargetSurface"
-	},
-	TaskScheduler = {
 		"SchedulerDutyCycle",
 		"SchedulerRate",
 		"ThreadPoolConfig",
 		"ThreadPoolSize"
-	},
-	Team = {
 		"AutoAssignable",
 		"TeamColor"
-	},
-	TeleportAsyncResult = {
 		"PrivateServerId",
 		"ReservedServerAccessCode"
-	},
-	TeleportOptions = {
 		"ReservedServerAccessCode",
 		"ServerInstanceId",
 		"ShouldReserveServer"
-	},
-	Terrain = {
 		"Decoration",
 		"MaterialColors",
 		"MaxExtents",
@@ -1798,8 +1321,6 @@ getgenv().AllProperties = {
 		"WaterTransparency",
 		"WaterWaveSize",
 		"WaterWaveSpeed"
-	},
-	TerrainDetail = {
 		"ColorMap",
 		"Face",
 		"MaterialPattern",
@@ -1807,11 +1328,7 @@ getgenv().AllProperties = {
 		"NormalMap",
 		"RoughnessMap",
 		"StudsPerTile"
-	},
-	TerrainRegion = {
 		"SizeInCells"
-	},
-	TestService = {
 		"AutoRuns",
 		"Description",
 		"ErrorCount",
@@ -1824,8 +1341,6 @@ getgenv().AllProperties = {
 		"TestCount",
 		"Timeout",
 		"WarnCount"
-	},
-	TextBox = {
 		"ClearTextOnFocus",
 		"ContentText",
 		"CursorPosition",
@@ -1853,8 +1368,6 @@ getgenv().AllProperties = {
 		"TextWrapped",
 		"TextXAlignment",
 		"TextYAlignment"
-	},
-	TextButton = {
 		"ContentText",
 		"Font",
 		"FontFace",
@@ -1874,13 +1387,9 @@ getgenv().AllProperties = {
 		"TextWrapped",
 		"TextXAlignment",
 		"TextYAlignment"
-	},
-	TextChatCommand = {
 		"Enabled",
 		"PrimaryAlias",
 		"SecondaryAlias"
-	},
-	TextChatMessage = {
 		"MessageId",
 		"Metadata",
 		"PrefixText",
@@ -1889,17 +1398,11 @@ getgenv().AllProperties = {
 		"TextChannel",
 		"TextSource",
 		"Timestamp"
-	},
-	TextChatMessageProperties = {
 		"PrefixText",
 		"Text"
-	},
-	TextChatService = {
 		"ChatVersion",
 		"CreateDefaultCommands",
 		"CreateDefaultTextChannels"
-	},
-	TextLabel = {
 		"ContentText",
 		"Font",
 		"FontFace",
@@ -1919,18 +1422,12 @@ getgenv().AllProperties = {
 		"TextWrapped",
 		"TextXAlignment",
 		"TextYAlignment"
-	},
-	TextSource = {
 		"CanSend",
 		"UserId"
-	},
-	Texture = {
 		"OffsetStudsU",
 		"OffsetStudsV",
 		"StudsPerTileU",
 		"StudsPerTileV"
-	},
-	Tool = {
 		"CanBeDropped",
 		"Enabled",
 		"Grip",
@@ -1941,12 +1438,8 @@ getgenv().AllProperties = {
 		"ManualActivationOnly",
 		"RequiresHandle",
 		"ToolTip"
-	},
-	Torque = {
 		"RelativeTo",
 		"Torque"
-	},
-	TorsionSpringConstraint = {
 		"Coils",
 		"CurrentAngle",
 		"Damping",
@@ -1956,8 +1449,6 @@ getgenv().AllProperties = {
 		"Radius",
 		"Restitution",
 		"Stiffness"
-	},
-	Trail = {
 		"Attachment0",
 		"Attachment1",
 		"Brightness",
@@ -1974,68 +1465,40 @@ getgenv().AllProperties = {
 		"TextureMode",
 		"Transparency",
 		"WidthScale"
-	},
-	Translator = {
 		"LocaleId"
-	},
-	TremoloSoundEffect = {
 		"Depth",
 		"Duty",
 		"Frequency"
-	},
-	TriangleMeshPart = {
 		"CollisionFidelity"
-	},
-	TrussPart = {
 		"Style"
-	},
-	Tween = {
 		"Instance",
 		"TweenInfo"
-	},
-	TweenBase = {
 		"PlaybackState"
-	},
-	UIAspectRatioConstraint = {
 		"AspectRatio",
 		"AspectType",
 		"DominantAxis"
-	},
-	UICorner = {
 		"CornerRadius"
-	},
-	UIGradient = {
 		"Color",
 		"Enabled",
 		"Offset",
 		"Rotation",
 		"Transparency"
-	},
-	UIGridLayout = {
 		"AbsoluteCellCount",
 		"AbsoluteCellSize",
 		"CellPadding",
 		"CellSize",
 		"FillDirectionMaxCells",
 		"StartCorner"
-	},
-	UIGridStyleLayout = {
 		"AbsoluteContentSize",
 		"FillDirection",
 		"HorizontalAlignment",
 		"SortOrder",
 		"VerticalAlignment"
-	},
-	UIListLayout = {
 		"Padding"
-	},
-	UIPadding = {
 		"PaddingBottom",
 		"PaddingLeft",
 		"PaddingRight",
 		"PaddingTop"
-	},
-	UIPageLayout = {
 		"Animated",
 		"Circular",
 		"CurrentPage",
@@ -2046,39 +1509,25 @@ getgenv().AllProperties = {
 		"ScrollWheelInputEnabled",
 		"TouchInputEnabled",
 		"TweenTime"
-	},
-	UIScale = {
 		"Scale"
-	},
-	UISizeConstraint = {
 		"MaxSize",
 		"MinSize"
-	},
-	UIStroke = {
 		"ApplyStrokeMode",
 		"Color",
 		"Enabled",
 		"LineJoinMode",
 		"Thickness",
 		"Transparency"
-	},
-	UITableLayout = {
 		"FillEmptySpaceColumns",
 		"FillEmptySpaceRows",
 		"MajorAxis",
 		"Padding"
-	},
-	UITextSizeConstraint = {
 		"MaxTextSize",
 		"MinTextSize"
-	},
-	UniversalConstraint = {
 		"LimitsEnabled",
 		"MaxAngle",
 		"Radius",
 		"Restitution"
-	},
-	UserGameSettings = {
 		"AllTutorialsDisabled",
 		"CameraMode",
 		"ChatVisible",
@@ -2107,8 +1556,6 @@ getgenv().AllProperties = {
 		"VREnabled",
 		"VRRotationIntensity",
 		"VignetteEnabled"
-	},
-	UserInputService = {
 		"AccelerometerEnabled",
 		"GamepadEnabled",
 		"GyroscopeEnabled",
@@ -2122,20 +1569,12 @@ getgenv().AllProperties = {
 		"OnScreenKeyboardVisible",
 		"TouchEnabled",
 		"VREnabled"
-	},
-	VRService = {
 		"GuiInputUserCFrame",
 		"VREnabled"
-	},
-	Vector3Value = {
 		"Value"
-	},
-	VectorForce = {
 		"ApplyAtCenterOfMass",
 		"Force",
 		"RelativeTo"
-	},
-	VehicleSeat = {
 		"AreHingesDetected",
 		"Disabled",
 		"HeadsUpDisplay",
@@ -2147,14 +1586,10 @@ getgenv().AllProperties = {
 		"ThrottleFloat",
 		"Torque",
 		"TurnSpeed"
-	},
-	VelocityMotor = {
 		"CurrentAngle",
 		"DesiredAngle",
 		"Hole",
 		"MaxVelocity"
-	},
-	VideoFrame = {
 		"IsLoaded",
 		"Looped",
 		"Playing",
@@ -2163,28 +1598,18 @@ getgenv().AllProperties = {
 		"TimePosition",
 		"Video",
 		"Volume"
-	},
-	ViewportFrame = {
 		"Ambient",
 		"CurrentCamera",
 		"ImageColor3",
 		"ImageTransparency",
 		"LightColor",
 		"LightDirection"
-	},
-	VoiceChatService = {
 		"EnableDefaultVoice"
-	},
-	VoiceSource = {
 		"UserId"
-	},
-	WeldConstraint = {
 		"Active",
 		"Enabled",
 		"Part0",
 		"Part1"
-	},
-	Workspace = {
 		"AllowThirdPartySales",
 		"AnimationWeightedBlendFix",
 		"ClientAnimatorThrottling",
@@ -2207,8 +1632,6 @@ getgenv().AllProperties = {
 		"StreamingTargetRadius",
 		"Terrain",
 		"TouchesUseCollisionGroups"
-	},
-	WrapLayer = {
 		"BindOffset",
 		"Color",
 		"DebugMode",
@@ -2219,10 +1642,7 @@ getgenv().AllProperties = {
 		"ReferenceOrigin",
 		"ReferenceOriginWorld",
 		"ShrinkFactor"
-	},
-	WrapTarget = {
 		"Color",
 		"DebugMode",
 		"Stiffness"
-	}
 }
