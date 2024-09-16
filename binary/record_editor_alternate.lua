@@ -22,8 +22,7 @@ repeat
     RealRunID = math.random(1, 999)
 until RealRunID ~= 666 and RealRunID ~= 14
 local RunID = " "..tostring(RealRunID)
-
-Alert("Tool Assisted Run Activated."..RunID, Color3.new(0.717647, 0, 1))
+Alert("Tool Assisted Editor: Executed", Color3.new(0.717647, 0, 1))
 local Key = -game.ReplicatedStorage.Remote.ReqPasskey:InvokeServer()
 local AnimationState = {}
 local Savestates = {}
@@ -75,33 +74,24 @@ local function isRandomString(str)
     return true
 end
 
-local function HandleThing(Interactive)
-    if not isRandomString(Interactive.Name) then
-        Interactive.CanCollide = not Interactive.CanCollide
-        if Interactive.CanCollide == false then
-            Interactive.Transparency = 0
-        elseif Interactive.CanCollide == true then
-            Interactive.Transparency = 1
-        end
-    end
-end
+--Put back if break
 
-local function SetPrimaryPart() -- new spawn finder by "_tomato." on discord
+local function SetPrimaryPart()
     local Map = game.Workspace.Multiplayer:WaitForChild("Map")
-    local Spawn = nil
+    local Part = nil
     local connections = {}
-    for _,v in ipairs(Map:GetChildren()) do
-        if v.Name == "Part" and v.Size.Y < 5 then
-            table.insert(connections, v:GetPropertyChangedSignal("Rotation"):Connect(function()
-                Spawn = v
-                for _,v in ipairs(connections) do
-                    v:Disconnect()
-                end
-            end))
+    for i,v in ipairs(Map:GetChildren()) do
+        if v.Name == "Spawn" then
+            v.Name = "Part" -- Change the name to "Part"
+            Part = v
+            break
         end
     end
-    repeat task.wait() until Spawn
-    Map.PrimaryPart = Spawn
+    if not Part then
+        error("Unable to find 'Spawn' object")
+        return
+    end
+    Map.PrimaryPart = Part
 end
 local RealHUD = LocalPlayer.PlayerGui.GameGui.HUD
 local OldParent = RealHUD.Parent
@@ -1718,7 +1708,7 @@ local function SetUpMap()
     MapName = game.Workspace.Multiplayer.Map.Settings:GetAttribute("MapName")
     print(MapName..RunID)
     Map = game.Workspace.Multiplayer.Map:Clone()
-    Map.Parent = game.Workspace
+    Map.Parent = game.Workspace.Multiplayer
     --Map:MoveTo(Vector3.new(0,1000,0))
     SpawnPos = Map.PrimaryPart.Position 
     Xoff, Yoff, Zoff = SpawnPos.X, SpawnPos.Y, SpawnPos.Z
@@ -1757,18 +1747,6 @@ local function SetUpMap()
     end)
     task.wait(2)
     for _, v in ipairs(Map:GetDescendants()) do
-        if v.ClassName == "ObjectValue" then
-            local Interactive = v.Parent
-            if not Interactive.ClassName == "Model" then
-                xpcall(HandleThing, function()end, Interactive)
-            elseif Interactive.ClassName == "Model" then
-                for _, Interactive in ipairs(Interactive:GetDescendants()) do
-                    xpcall(HandleThing, function()end, Interactive)
-                end
-            end
-        end
-    end
-    for _, v in ipairs(Map:GetDescendants()) do
         if isRandomString(v.Name) then 
             local Children = (function()
                 local parts = {}
@@ -1790,7 +1768,7 @@ local function SetUpMap()
                 getgenv().delayy = false
                 Hitbox.Touched:Connect(function(part)
                     if delayy == false then
-                        Alert("Button Touched!",Color3.fromRGB(255,140,0))
+                       -- Alert("",Color3.fromRGB(255,140,0))
                         delayy = true
                         wait(1)
                         delayy = false
@@ -1799,8 +1777,6 @@ local function SetUpMap()
             end
         end
     end
-    game.Workspace.Multiplayer.Map:Destroy()
-    print("Finished setting up map"..RunID)
 end
 
 local function UpdSavestatesGUI()
@@ -2139,7 +2115,6 @@ local function SaveRun()
         return minTasFile
     end
     -- ending line
-    local mapName = workspace.Map.Settings:GetAttribute("MapName")
     local AllPlayerInfo = minfile(AllPlayerInfo)
     writefile("Liquid_Mix/Records/"..custom_map_name..".json", game:GetService("HttpService"):JSONEncode(AllPlayerInfo))
     Alert("Saved", Color3.fromRGB(0, 255, 0), 1)
@@ -2149,9 +2124,10 @@ ReplicatedStorage.Remote.StartClientMapTimer.OnClientEvent:Wait()
 task.wait(1)
 SetUpMap()
 
-if not isfolder("TAS") then
-    makefolder("TAS")
+if not isfolder("CM_TAS") then
+    makefolder("CM_TAS")
 end
+
 
 local timer = tick()
 local RecordLoop
@@ -2163,12 +2139,13 @@ local function ResetToNormal()
     RecordLoop:Disconnect()
     KeybindsConnect:Disconnect()
     Death:Disconnect()
-    Map:Destroy()
+    LocalPlayer.Character.Humanoid.Health = 0
     RealHUD.Parent = OldParent
     HUD:Destroy()
-    LocalPlayer.Character.Humanoid.Health = 0
-    print("Reset to normal"..RunID)
+    wait(3)
+    Workspace.Multiplayer.Map:Destroy()
 end
+
 RecordLoop = RunService.Heartbeat:Connect(function(deltaTime)
     if not Pause then
         SetTimeGui()
